@@ -1,0 +1,132 @@
+.us-banner {
+  width: 100%;
+  background: url(../img/about_us.png) no-repeat center center;
+  height: 480px;
+}
+.banner {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+.us-nav-block {
+  padding-top: 20px;
+  max-width: 1200px;
+  margin: 0px auto;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+}
+.us-nav-block ul li {
+  width: 120px;
+  float: left;
+  margin: 0px 30px 0px 15px;
+  text-align: center;
+  list-style: none;
+}
+.us-nav-block ul li a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: 0.25s;
+  box-sizing: border-box;
+  line-height: 48px;
+  height: 48px;
+  display: block;
+}
+.us-nav-block ul li a:hover {
+  color: #d62828;
+  border-bottom: 2px solid #d62828;
+  display: block;
+  line-height: 48px;
+  height: 48px;
+}
+.us-nav-block ul li.inner_li_active a {
+  color: #d62828;
+  border-bottom: 2px solid #d62828;
+  display: block;
+  line-height: 48px;
+  height: 48px;
+}
+.g-c-bd {
+  position: relative;
+  max-width: 1180px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.auths_container {
+  padding: 50px 0;
+}
+.auths_container .auths .container:nth-child(odd) {
+  margin-right: 35px;
+}
+.auths_container .auths .container {
+  width: 570px;
+  height: 222px;
+  display: inline-block;
+  margin-bottom: 40px;
+  vertical-align: top;
+  -moz-box-shadow: 0 1px 5px #ddd;
+  box-shadow: 0 1px 10px #eee;
+}
+.auths_container .auths .container .pic {
+  display: inline-block;
+  width: 170px;
+  height: 220px;
+  vertical-align: top;
+}
+.auths_container .auths .container .content {
+  display: inline-block;
+  width: 370px;
+  padding-top: 30px;
+  padding-right: 29px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: justify;
+}
+.auths_container .auths .container .content .subTitle {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: center;
+  color: #333;
+}
+
+/*about_us01*/
+.us-main-block {
+  padding: 80px 0;
+  max-width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.us-main-us {
+  padding: 0px 75px;
+}
+.main-us-title {
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+  width: 60%;
+  margin: 0px auto;
+}
+.main-us-title h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #333;
+  margin-bottom: 30px;
+}
+.main-us-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.main-us-text p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #666;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
